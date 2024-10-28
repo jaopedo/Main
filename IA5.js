@@ -2,15 +2,17 @@ const gameGrid = document.querySelector('.game-grid');
 
 // Array com os dados dos jogos
 const jogos = [
-    { nome: 'Pac-Man', imagem: 'pac-man.jpg' },
-    { nome: 'Mario Bros', imagem: 'mario-bros.jpg' },
-    { nome: 'Pitfall', imagem: 'Modelo 2.png' },
+    { nome: 'Pac-Man', imagem: 'pica.png' },
+    { nome: 'Mario Bros', imagem: 'snoopy.png' },
+    { nome: 'Pitfall', imagem: 'sonic.jpeg' },
     { nome: 'Enduro', imagem: 'morris.webp' },
-    { nome: 'Donkey Kong', imagem: 'mario-bros.jpg' },
-    { nome: 'Galaxy', imagem: 'mario-bros.jpg' },
-    { nome: 'Tennis', imagem: 'mario-bros.jpg' },  
+    { nome: 'Donkey Kong', imagem: 'morris.png },
+    { nome: 'Galaxy', imagem: 'Mario2.jpg' },
+    { nome: 'Tennis', imagem: 'Modelo 2.png' },  
     // ... outros jogos
 ];
+
+
 
 // Função para criar um elemento da grade
 function criarGameBox(jogo) {
