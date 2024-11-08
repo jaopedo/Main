@@ -4,6 +4,9 @@ body{
 
 .header{
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .links{
@@ -59,6 +62,16 @@ body{
     color: #e605d3;
 }
 
+.secao-1 h1{
+    font-weight: bold;
+}.secao-1 h2{
+    font-weight: lighter;
+    color: #e605d3;
+    margin-top: 10px;
+}     
+
+
+
 .secao-1{
     width: 500px;
     margin-left: 50px;
@@ -72,6 +85,44 @@ body{
     margin-bottom: 100px;
 }
 
+
+
+
+.secao-1 h2{
+    font-weight: lighter;
+    color: #e605d3;
+    margin-top: 20px;
+}
+
+
+
+
+.texto{
+    text-align: center;
+    columns: 3;
+    font-weight: bold;
+    margin: 50px;
+}
+
+
+
+
+
+
+.secao-2 h2{
+    font-weight: lighter;
+    color: #e605d3;
+    margin-top: 20px;
+}
+
+
+
+.linha-divisoria{
+    width: 0.5%;
+    background-color: red;
+}
+
+
 .secao-3{
     width: 500px;
     margin-left: 50px;
@@ -84,14 +135,9 @@ body{
     margin-top: 50px;
 }
 
-.secao-1 h1{
-    font-weight: bold;
-}
 
-.secao-1 h2{
-    font-weight: lighter;
-    color: #e605d3;
-}
+
+
 
 img{
     width: 400px;
@@ -127,4 +173,10 @@ h1{
 button{
     padding: 20px;
     margin-left: 40px;
+}
+
+
+main{
+    display: flex;
+    padding-top: 80px;
 }
