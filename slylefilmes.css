@@ -27,8 +27,7 @@ img{
 }
 
 .header{
-    padding: 20px;
-    position: fixed;
+    padding: 5px;
     width: 100%;
     z-index: 1;
     overflow: hidden;
@@ -36,7 +35,7 @@ img{
 
 .links{
     display: inline;
-    margin-left: 55%;
+    margin-left: 480px;
 }
 
 .links a{
